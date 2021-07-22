@@ -99,8 +99,7 @@ variable "vm_ram" {
     description = "RAM in MiB for the VM"
     default = 4096
 }
-variable "boot_command" {}
 variable "ansible_playbooks" {
     description = "The URL for Ansible Playbooks to provision the system"
-    default = "/home/cameron/Documents/Development/ansible-playbooks"
 }
+variable "boot_command" {}
